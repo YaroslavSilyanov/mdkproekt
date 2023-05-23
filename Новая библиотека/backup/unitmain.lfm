@@ -1,0 +1,30 @@
+object FormMain: TFormMain
+  Left = 574
+  Height = 216
+  Top = 135
+  Width = 320
+  Caption = 'FormMain'
+  ClientHeight = 216
+  ClientWidth = 320
+  Menu = MainMenu1
+  LCLVersion = '2.2.6.0'
+  object Image1: TImage
+    Left = 224
+    Height = 90
+    Top = 24
+    Width = 90
+  end
+  object Button1: TButton
+    Left = 16
+    Height = 25
+    Top = 23
+    Width = 75
+    Caption = 'Button1'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object MainMenu1: TMainMenu
+    Left = 168
+    Top = 24
+  end
+end

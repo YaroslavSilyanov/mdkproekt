@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="project1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="23"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unitmain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="unitMain"/>
+        <TopLine Value="4"/>
+        <CursorPos X="14" Y="30"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unitkniglist.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormKnigList"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="unitKnigList"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unitknigaedit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormKnigaEdit"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="unitKnigaEdit"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unitformspjanr.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormSpJanr"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="unitFormSpJanr"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="26"/>
+        <CursorPos X="15" Y="51"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="8">
+      <Position>
+        <Filename Value="unitmain.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="unitkniglist.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="unitformspjanr.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="unitformspjanr.pas"/>
+        <Caret Line="43" Column="9" TopLine="8"/>
+      </Position>
+      <Position>
+        <Filename Value="unitformspjanr.pas"/>
+        <Caret Line="54" Column="3" TopLine="16"/>
+      </Position>
+      <Position>
+        <Filename Value="unitformspjanr.pas"/>
+        <Caret Line="50" Column="40" TopLine="16"/>
+      </Position>
+      <Position>
+        <Filename Value="unitformspjanr.pas"/>
+        <Caret Line="55" Column="40" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="unitmain.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="unitmain.pas"/>
+        <Caret Line="38" Column="21" TopLine="4"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

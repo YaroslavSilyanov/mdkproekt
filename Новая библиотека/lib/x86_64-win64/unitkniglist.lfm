@@ -1,0 +1,62 @@
+object FormKnigList: TFormKnigList
+  Left = 710
+  Height = 281
+  Top = 238
+  Width = 480
+  Caption = 'FormKnigList'
+  ClientHeight = 281
+  ClientWidth = 480
+  OnCreate = FormCreate
+  LCLVersion = '2.2.6.0'
+  object StringGrid1: TStringGrid
+    Left = 0
+    Height = 249
+    Top = 32
+    Width = 480
+    Align = alClient
+    TabOrder = 0
+  end
+  object ToolBar1: TToolBar
+    Left = 0
+    Top = 0
+    Width = 480
+    Caption = 'ToolBar1'
+    TabOrder = 1
+    object BitBtn1: TBitBtn
+      Left = 1
+      Height = 22
+      Top = 2
+      Width = 75
+      Caption = 'BitBtn1'
+      TabOrder = 0
+    end
+    object BitBtn2: TBitBtn
+      Left = 76
+      Height = 22
+      Top = 2
+      Width = 75
+      Caption = 'BitBtn2'
+      TabOrder = 1
+    end
+    object BitBtn3: TBitBtn
+      Left = 151
+      Height = 22
+      Top = 2
+      Width = 75
+      Caption = 'BitBtn3'
+      TabOrder = 2
+    end
+    object EditButton1: TEditButton
+      Left = 226
+      Height = 23
+      Top = 2
+      Width = 103
+      ButtonWidth = 23
+      MaxLength = 0
+      NumGlyphs = 1
+      PasswordChar = #0
+      TabOrder = 3
+      Text = 'EditButton1'
+    end
+  end
+end

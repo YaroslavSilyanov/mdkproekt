@@ -1,0 +1,58 @@
+object FormKnigList: TFormKnigList
+  Left = 264
+  Height = 369
+  Top = 187
+  Width = 704
+  Caption = 'FormKnigList'
+  ClientHeight = 369
+  ClientWidth = 704
+  OnCreate = FormCreate
+  LCLVersion = '2.2.6.0'
+  object StringGrid1: TStringGrid
+    Left = 0
+    Height = 265
+    Top = 104
+    Width = 704
+    Align = alClient
+    TabOrder = 0
+  end
+  object CoolBar1: TCoolBar
+    Left = 0
+    Height = 104
+    Top = 0
+    Width = 704
+    Bands = <    
+      item
+        Control = BitBtn1
+        Width = 104
+      end    
+      item
+        Control = BitBtn2
+        Width = 104
+      end>
+    object BitBtn1: TBitBtn
+      AnchorSideLeft.Control = CoolBar1
+      AnchorSideTop.Control = CoolBar1
+      Left = 24
+      Height = 30
+      Top = 5
+      Width = 75
+      BorderSpacing.Left = 22
+      BorderSpacing.Top = 3
+      Caption = 'BitBtn1'
+      TabOrder = 0
+    end
+    object BitBtn2: TBitBtn
+      AnchorSideLeft.Control = CoolBar1
+      AnchorSideTop.Control = CoolBar1
+      Left = 24
+      Height = 30
+      Top = 43
+      Width = 75
+      BorderSpacing.Left = 22
+      BorderSpacing.Top = 41
+      Caption = 'BitBtn2'
+      TabOrder = 1
+    end
+  end
+end
